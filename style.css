@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+}
+.left{
+width: 25vw;
+background-color: aqua;
+/* height: 100vh; */
+}
+.right{
+width: 75vw;
+background-color: blue;
+/* height: 100vh; */
+}
+.home ul li{
+    width: 60%;
+    height: 100%;
+
+}
+
