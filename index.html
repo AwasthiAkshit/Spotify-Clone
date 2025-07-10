@@ -1,29 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Clone </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
+
 <body>
-    <div class="container flex">
-    <div class="left border">
-        <div class="home">
-            <div class="logo"><img src="spotify-logo-png-7053.png" alt="logo"></div>
-            <ul>
-                <div></div><i class="ri-home-4-fill"></i>Home</li>
-                <li><i class="ri-search-line"></i>Search</li>
-            </ul>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="home border bg-grey  ">
+                <div class="logo flex items-align"><img class="invert" src="logo.svg" alt="logo">Spotify</div>
+                <ul>
+                    <li class="home-logo"><img class="invert" src="home.svg" alt="home">Home</li>
+                    <li class="search-logo"><img class="invert" src="search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+
+
+            <!-- library section -->
+            <div class="lib border bg-grey">
+                <div class="heading">
+                    <h3>Library</h3>
+                    <img class="invert" src="plus.svg" alt="">
+                </div>
+                <div class="lib-content">
+                    <div class="lib-create"></div>
+                    <div class="lib-browse"></div>
+                </div>
+                <div class="lib-footer">
+                    <div class="legal-links">
+                        <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">Safety & Privacy Center</a>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a>
+                        <a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a>
+                    </div>
+                    <div class="language-selector">
+                        <button>
+                            <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+                                <path
+                                    d="M8.152 16H8a8 8 0 1 1 .152 0m-.41-14.202c-.226.273-.463.713-.677 1.323-.369 1.055-.626 2.496-.687 4.129h3.547c-.06-1.633-.318-3.074-.687-4.129-.213-.61-.45-1.05-.676-1.323-.194-.235-.326-.285-.385-.296h-.044c-.055.007-.19.052-.391.296M4.877 7.25c.062-1.771.34-3.386.773-4.624q.148-.427.329-.806a6.51 6.51 0 0 0-4.436 5.43zm-3.334 1.5a6.51 6.51 0 0 0 4.436 5.43 8 8 0 0 1-.33-.806c-.433-1.238-.71-2.853-.772-4.624zm4.835 0c.061 1.633.318 3.074.687 4.129.214.61.451 1.05.677 1.323.202.244.336.29.391.297l.044-.001c.06-.01.19-.061.385-.296.226-.273.463-.713.676-1.323.37-1.055.626-2.496.687-4.129zm5.048 0c-.061 1.771-.339 3.386-.772 4.624q-.123.353-.268.674a6.5 6.5 0 0 0 4.071-5.298zm3.031-1.5a6.51 6.51 0 0 0-4.071-5.298q.145.322.268.674c.433 1.238.711 2.853.772 4.624z">
+                                </path>
+                            </svg>
+                            English
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="lib"></div>
-    </div>
-    <div class="right border"></div>
+        <div class="right border bg-grey"></div>
     </div>
 </body>
+
 </html>
