@@ -1,23 +1,30 @@
-.flex{
+.flex {
     display: flex;
 }
-.justify-center{
-    justify-content:center ;
+
+.justify-center {
+    justify-content: center;
 }
-.items-align{
+
+.items-align {
     align-items: center;
 }
-.border{
+
+.border {
     border: 4px solid black;
     border-radius: 10px;
 
-}.bg-grey{
-    background-color: #121212;
-    color:#DDDDDD;
 }
-.invert{
+
+.bg-grey {
+    background-color: #121212;
+    color: #DDDDDD;
+}
+
+.invert {
     filter: invert(1);
 }
-.bg-black{
+
+.bg-black {
     background-color: black;
 }
