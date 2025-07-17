@@ -253,6 +253,12 @@ border-radius: 25px;
     transform: scale(1.2);
     color: #1ed760;
 }
+.lib-content ul{
+    padding: 0 30px;
+}
+.lib ul li{
+    list-style-type: decimal;
+}
 
 
 
