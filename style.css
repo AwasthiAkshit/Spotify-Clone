@@ -29,6 +29,7 @@ body {
     height: 100vh;
     border: 2px solid #121212;
     border-radius: 15px;
+    position: relative;
 }
 
 .home {
@@ -140,10 +141,122 @@ body {
 .nav a{
     color: #8F8F8F;
     text-decoration: none;
+    font-weight: bold;
+}
+.nav a:hover{
+    
+    text-decoration: underline;
+    color: aliceblue;
+    transition: 1ms ease-out;
+    font-weight: bold;
 }
 .nav{
     padding-left: 10px;
 }
 .nav-buttons{
-    padding-right: 10px;
+    padding-right: 5px;
+    width: 15vw;
 }
+.card-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    max-height: 65vh;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+/* Scrollbar styling for WebKit browsers (Chrome, Edge, Brave, etc.) */
+.card-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.card-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.card-container::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 10px;
+}
+
+/* Scrollbar styling for Firefox */
+.card-container {
+    scrollbar-width: thin;
+    scrollbar-color: black transparent;
+}
+.card {
+    width: 180px;
+    border-radius: 10px;
+    color: #8F8F8F;
+    position: relative;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+.spotify-playlists h1{
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.ri-play-circle-fill{
+    color: #1DB954; position: absolute; left: 75%; top: 45%; font-size: 40px;
+}
+.signup{
+    text-decoration: none;
+    color: #8F8F8F;
+    margin: 10px;
+    font-weight: bold;
+}
+.signup:hover{
+    text-decoration: underline;
+    color: aliceblue;
+    transition: 1ms ease-out;
+    font-weight: bold;
+}
+.login{
+width: 7vw;
+height: 3vw;
+font-weight: bold;
+font-size: large;
+border-radius: 25px;
+}
+.login:hover{
+    background-color:#c4b9b9;
+    height: 3.3vw;
+    width: 7.3vw;
+    cursor: pointer;
+}
+.playbar {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    background-color: #A2A2A2;
+    position: absolute;
+    bottom: 0;
+    
+    
+    
+}
+
+.playbar i {
+    color: #1DB954;
+    font-size: 40px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.playbar i:hover {
+    transform: scale(1.2);
+    color: #1ed760;
+}
+
+
+
+
+
+
+

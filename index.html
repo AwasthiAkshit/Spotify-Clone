@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hugeicons@1.0.0/hugeicons.min.css" />
+
 </head>
 
 <body>
@@ -61,27 +63,41 @@
             </div>
         </div>
         <div class="right border bg-grey">
-          <div class="header">
-            <div class="nav">
-                <a href="#">Install </a>
-            </div>
-            <div class="nav-buttons">
-                <button class="signup">Sign up</button>
-                <button class="login">Log in</button>
-            </div>
-          </div>
-          <div class="spotify-playlsits">
-            <h1>Spotify Playlists</h1>
-            <div class="card-container">
-                <div class="card"> 
-                    <img src="" alt="">
-                    <h2>Hottest Hindi music</h2>
-                    <p>that India is listening...</p>
+            <div class="header">
+                <div class="nav">
+                    <a href="#">Install </a>
+                </div>
+                <div class="nav-buttons">
+                    <a class="signup" href="#">Sign-up</a>
+                    <button class="login">Log in</button>
                 </div>
             </div>
-          </div>
+            <div class="spotify-playlists">
+                <h1>Spotify Playlists</h1>
+                <div class="card-container">
+                    <div class="card">
+                        <i class="ri-play-circle-fill"></i>
+
+                        <img src="https://i.scdn.co/image/ab67706f000000022da0920c7ce7c28c5f92aae8" alt="">
+                        <h2>Hottest Hindi music</h2>
+                        <p>that India is listening...</p>
+                    </div>
+
+                </div>
+                <div class="playbar">
+                    <div class="songinfo"></div>
+                    <div class="play-pause">
+                        <i class="ri-skip-left-fill"></i>
+                        <i class="ri-play-circle-line"></i>
+                        <i class="ri-skip-right-fill"></i>
+                    </div>
+                    <div class="songtime"></div>
+                </div>
+            </div>
+
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
